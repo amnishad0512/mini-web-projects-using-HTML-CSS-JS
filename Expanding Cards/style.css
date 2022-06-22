@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  display: flex;
+  gap: 10px;
+  width: 80%;
+  margin: auto;
+  height: 100vh;
+  padding: 50px;
+}
+
+.main-container > div {
+  width: 10%;
+  background-color: yellow;
+  border-radius: 10px;
+  background-size: cover;
+}
+.main-container > div:nth-child(1) {
+  background-image: url(./1.jpg);
+  width: 70%;
+}
+.main-container > div:nth-child(2) {
+  background-image: url(./2.jpg);
+}
+.main-container > div:nth-child(3) {
+  background-image: url(./3.jpg);
+}
+.main-container > div:nth-child(4) {
+  background-image: url(./4.jpg);
+}
+.main-container > div:nth-child(5) {
+  background-image: url(./5.jpg);
+}
